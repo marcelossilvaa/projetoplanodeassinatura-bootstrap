@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Css Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Css Bootstrap Ícones-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Start BootStrap</title>
+</head>
+<body>
+
+    <!-- As a link -->
+    <nav class="navbar navbar-dark navbar-expand" style="background-color: #1b1d1f;">
+        <div class="container">
+            <a class="navbar-brand" href="#">Start BootStrap</a>
+
+            <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                </ul>
+        </div>
+            <!--Login Form      ------->
+        <div class="formulario">
+            <form class="d-flex p-2">
+                <div class="login mb-3 p-2">
+                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                    <input type="email" class="exe form-control" id="exampleInputEmail1" aria-describedby="emailHelp" style="min-width:30px">
+                </div>
+                <div class="login mb-3 p-2">
+                    <label for="exampleInputPassword1" class="form-label">Senha</label>
+                    <input type="password" class="exe form-control" id="exampleInputPassword1">
+                </div>
+                <button type="submit" class="btn btn-primary">Login</button>
+            </form>
+        </div>
+    </nav>
+
+    <!--Header Carousel-->
+    <header id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="banner bg-dark py-5 d-flex flex-column align-items-center">
+                    <div class="text-white text-center w-50 mb-2">
+                        <h1>Present your business in a whole new way</h1>
+                        <p class="text-white-50">Quickly design and customize responsive mobile-first sites with Bootstrap, the world's most popular front-end open source toolkit!</p>
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-outline-light mx-2">
+                            Get Started
+                        </button>
+                        <button type="button" class="btn btn-outline-light mx-2">
+                            Learn More
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="banner bg-dark py-5 d-flex flex-column align-items-center">
+                    <div class="text-white text-center w-50 mb-2">
+                        <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+                        <p class="text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel alias esse quisquam tempore minima nisi cumque nesciunt accusamus hic assumenda illum libero, maxime eveniet nihil velit sed placeat soluta explicabo!</p>
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-outline-light mx-2">
+                            Get Started
+                        </button>
+                        <button type="button" class="btn btn-outline-light mx-2">
+                            Learn More
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="carousel-item">
+                <div class="banner bg-dark py-5 d-flex flex-column align-items-center">
+                    <div class="text-white text-center w-50 mb-2">
+                        <h1>Lorem ipsum dolor, sit amet consectetur adipisicing.</h1>
+                        <p class="text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quos aliquid expedita labore fuga recusandae, modi neque ea. Alias odit laborum necessitatibus culpa incidunt nesciunt ipsa illo voluptas dicta quae?
+                            Dicta tenetur quos consequuntur ipsum, ab fuga iusto explicabo necessitatibus adipisci cum veniam dolorem vero iure illo nisi pariatur voluptatibus quas! Impedit magni dolorum nihil eligendi mollitia voluptatum excepturi unde.
+                        </p>
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-outline-light mx-2">
+                            Get Started
+                        </button>
+                        <button type="button" class="btn btn-outline-light mx-2">
+                            Learn More
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </header>
+    <!--Header Carousel-->
+
+    <!-- Conteúdo/Planos -------------------------------->
+    <main class="container-fluid p-5">
+        <!-- CARD's -->
+        <div class="row">
+
+            <!-- 1º CARD -->
+            <div class="col-4">
+                <div class="card p-3" style="width: 20rem;">
+                    <div class="card-body">
+                        <h3 class="card-title small text-muted"><b>FREE</b> </h3>
+                        <p class="card-text">
+                            <span class="display-3"><strong>$0</strong></span>
+                            <span class="text-muted">/mo.</span> 
+                        </p>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">
+                                <i class="bi bi-check"></i>
+                                <b>1 users</b> 
+                            </li>
+                            <li class="mb-2">
+                                <i class="bi bi-check"></i>
+                                5GB storage
+                            </li>
+                            <li class="mb-2">
+                                <i class="bi bi-check"></i>
+                                Unlimited public projects
+                            </li>
+                            <li class="mb-2">
+                                <i class="bi bi-check"></i>
+                                Community access
+                            </li>
+                            <li class="mb-2 text-muted">
+                                <i class="bi bi-x"></i>
+                                Unlimited private projects
+                            </li>
+                            <li class="mb-2 text-muted">
+                                <i class="bi bi-x"></i>
+                                Dedicated support
+                            </li>
+                            <li class="mb-2 text-muted">
+                                <i class="bi bi-x"></i>
+                                Free linked domain
+                            </li>
+                            <li class="mb-2 text-muted">
+                                <i class="bi bi-x"></i>
+                                Monthly status reports
+                            </li>
+                        </ul>
+                        <a href="#" class="btn btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">Choose Plan</a>
+                        <!-- MOdal ---------------->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <!-- Dados Cartão modal/form -->
+                                    <form action="mailto:marcelo_810@hotmail.com">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Payment details</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="mb-2 row">
+                                                <label for="holder_name" class="form-label col-4">Holder</label>
+                                                <input name="holder_name" type="text" class="form-control col">
+                                            </div>
+                                            <div class="mb-2 row">
+                                                <label for="card_number" class="form-label col-4">Card number</label>
+                                                <input name="card_name" type="text" class="form-control col">
+                                            </div>
+                                            <div class="mb-2 row">
+                                                <label for="expiration_date" class="form-label col-4">Expiration date</label>
+                                                <input name="expiration_date" type="text" class="form-control col">
+                                            </div>
+                                            <div class="mb-2 row">
+                                                <label for="cvv" class="form-label col-4">CVV</label>
+                                                <input name="cvv" type="text" class="form-control col">
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                            <button type="submit" class="btn btn-primary">Submit</button>
+                                        </div>
+                                    </form>
+                                    <!-- Dados Cartão modal/form -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 2º CARD -->
+            <div class="col-4">
+                <div class="card p-3" style="width: 20rem;">
+                    <div class="card-body">
+                        <div class="">
+                            <h3 class="small">
+                                <i class="bi bi-star-fill" style="color: rgb(243, 243, 13)"></i>
+                                <b>PRO</b>
+                            </h3>
+                        </div>
+                        <p>
+                                <span class="display-3"><b>$9</b></span>
+                                <span class="text-muted small">/mo.</span>
+                        </p>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">
+                                <i class="bi bi-check"></i>
+                                <b>5 users</b>
+                            </li>
+                            <li class="mb-2">
+                                <i class="bi bi-check"></i>
+                                5GB storage
+                            </li>
+                            <li class="mb-2">
+                                <i class="bi bi-check"></i>
+                                Unlimited public projects
+                            </li>
+                            <li class="mb-2">
+                                <i class="bi bi-check"></i>
+                                Community access
+                            </li>
+                            <li class="mb-2">
+                                <i class="bi bi-check"></i>
+                                Unlimited private projects
+                            </li>
+                            <li class="mb-2">
+                                <i class="bi bi-check"></i>
+                                Delicated support
+                            </li>
+                            <li class="mb-2">
+                                <i class="bi bi-check"></i>
+                                Free linked domain
+                            </li>
+                            <li class="mb-2 text-muted">
+                                <i class="bi bi-x"></i>
+                                Monthly srtatus reports
+                            </li>
+                        </ul>
+                        <a id="btn_pro" class="btn btn-primary w-100">Choose Plan</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3º CARD -->
+            <div class="col-4">
+                <div class="card p-3" style="width: 20rem;">
+                    <div class="card-body">
+                        <h3 class="card-title small text-muted"><b>ENTERPRISE</b> </h3>
+                        <p class="card-text">
+                            <span class="display-3"><strong>$49</strong></span>
+                            <span class="text-muted">/mo.</span> 
+                        </p>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">
+                                <i class="bi bi-check"></i>
+                                <b>Unlimited users</b> 
+                            </li>
+                            <li class="mb-2">
+                                <i class="bi bi-check"></i>
+                                5GB storage
+                            </li>
+                            <li class="mb-2">
+                                <i class="bi bi-check"></i>
+                                Unlimited public projects
+                            </li>
+                            <li class="mb-2">
+                                <i class="bi bi-check"></i>
+                                Community access
+                            </li>
+                            <li class="mb-2">
+                                <i class="bi bi-check"></i>
+                                Unlimited private projects
+                            </li>
+                            <li class="mb-2">
+                                <i class="bi bi-check"></i>
+                                Dedicated support
+                            </li>
+                            <li class="mb-2">
+                                <i class="bi bi-check"></i>
+                                <b>Unlimited</b> linked domain
+                            </li>
+                            <li class="mb-2">
+                                <i class="bi bi-check"></i>
+                                Monthly status reports
+                            </li>
+                        </ul>
+                        <a id="btn_enterprise" class="btn btn-outline-primary w-100">Choose Plan</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+    </main>
+
+
+    <!-- Footer -->
+<footer class="text-center text-lg-start bg-dark" style="color: white;">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block">
+            <span>Get connected with us on social networks:</span>
+        </div>
+        <!-- Left -->
+    
+        <!-- Right -->
+        <div>
+            <a href="" class="me-4 text-reset">
+            <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+            <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+            <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+            <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+            <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+            <i class="fab fa-github"></i>
+            </a>
+        </div>
+        <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+    
+        <!-- Section: Links  -->
+        <section class="">
+        <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                    <i class="fas fa-gem me-3"></i>Company name
+                </h6>
+                <p>
+                    Here you can use rows and columns to organize your footer content. Lorem ipsum
+                    dolor sit amet, consectetur adipisicing elit.
+                </p>
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                Products
+                </h6>
+                <p>
+                    <a href="#!" class="text-reset">Angular</a>
+                </p>
+                <p>
+                    <a href="#!" class="text-reset">React</a>
+                </p>
+                <p>
+                    <a href="#!" class="text-reset">Vue</a>
+                </p>
+                <p>
+                    <a href="#!" class="text-reset">Laravel</a>
+                </p>
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                    Useful links
+                </h6>
+                <p>
+                    <a href="#!" class="text-reset">Pricing</a>
+                </p>
+                <p>
+                    <a href="#!" class="text-reset">Settings</a>
+                </p>
+                <p>
+                    <a href="#!" class="text-reset">Orders</a>
+                </p>
+                <p>
+                    <a href="#!" class="text-reset">Help</a>
+                </p>
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+                <p>
+                    <i class="fas fa-envelope me-3"></i>
+                    info@example.com
+                </p>
+                <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+                <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+            </div>
+            <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+        </div>
+        </section>
+        <!-- Section: Links  -->
+    
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: #1b1d1f;">
+            <a href="#" class="btn btn-outline-light">Voltar ao topo</a>
+            © 2021 Copyright:
+            <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+    <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <!-- JS Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
+    <script src="sintax.js"></script>
+    <script>
+        
+    </script>
+</body>
+</html>

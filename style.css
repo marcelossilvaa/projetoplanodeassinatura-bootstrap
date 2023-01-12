@@ -1,0 +1,21 @@
+.banner{
+    height: 380px;
+}
+/* Login  ----------*/
+
+.login{
+    height: 15px;
+    display: flex;
+    color: white;
+}
+
+.exe{
+    margin-left: 5px;
+    height: 25px;
+    width: 100px;
+}
+
+.btn{
+    margin-top: 5px;
+    font-size: 12px;
+}
